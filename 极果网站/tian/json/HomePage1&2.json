@@ -1,0 +1,364 @@
+{
+
+    " HomePage_FocusPicture": [{
+        "title": "幻响小贝HiFi2.1音箱",
+        "num1": "126人申请",
+        "pricr": "￥559",
+        "num2": "20台",
+        "subhead": "申请时间剩余：",
+        "btn": "立即申请"
+
+    }],
+    "HomePageHot": [{
+        "img": "./../img/hot1.jpg",
+        "right": "首发",
+        "color_r": "#ff4f3f",
+        "title": "巴慕达 The Toaster 烤面包机",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#ff4f3f",
+        "num2": "1392",
+        "time": "剩余时间2天",
+        "color_top": "#fff"
+    }, {
+        "img": "./../img/hot2.jpg",
+        "right": "体验师专享",
+        "color_r": "#fbf3cc",
+        "title": "Osprey小鹰户外运动专业腰包",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#7bc564",
+        "num2": "1392",
+        "time": "查看试用名单",
+        "color_top": "#c8c99a"
+    }, {
+        "img": "./../img/hot3.jpg",
+        "right": "首发",
+        "color_r": "#ff4f3f",
+        "title": "Liquid Image 338 运动摄像眼镜",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#ff4f3f",
+        "num2": "1392",
+        "time": "剩余时间2天",
+        "color_top": "#fff"
+    }, {
+        "img": "./../img/hot4.jpg",
+        "right": "体验师专享",
+        "color_r": "#fbf3cc",
+        "title": "巴慕达 The Toaster 烤面包机",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#7bc564",
+        "num2": "1392",
+        "time": "查看试用名单",
+        "color_top": "#c8c99a"
+    }, {
+        "img": "./../img/hot5.jpg",
+        "right": "首发",
+        "color_r": "#ff4f3f",
+        "title": "巴慕达 The Toaster 烤面包机",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#ff4f3f",
+        "num2": "1392",
+        "time": "剩余时间2天",
+        "color_top": "#fff"
+    }, {
+        "img": "./../img/hot6.jpg",
+        "right": "体验师专享",
+        "color_r": "#fbf3cc",
+        "title": "Osprey小鹰户外运动专业腰包",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#7bc564",
+        "num2": "1392",
+        "time": "查看试用名单",
+        "color_top": "#c8c99a"
+    }, {
+        "img": "./../img/hot7.jpg",
+        "right": "首发",
+        "color_r": "#ff4f3f",
+        "title": "Liquid Image 338 运动摄像眼镜",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#ff4f3f",
+        "num2": "1392",
+        "time": "剩余时间2天",
+        "color_top": "#fff"
+    }, {
+        "img": "./../img/hot8.jpg",
+        "right": "体验师专享",
+        "color_r": "#fbf3cc",
+        "title": "巴慕达 The Toaster 烤面包机",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#7bc564",
+        "num2": "1392",
+        "time": "查看试用名单",
+        "color_top": "#c8c99a"
+    }, {
+        "img": "./../img/hot9.jpg",
+        "right": "首发",
+        "color_r": "#ff4f3f",
+        "title": "巴慕达 The Toaster 烤面包机",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#ff4f3f",
+        "num2": "1392",
+        "time": "剩余时间2天",
+        "color_top": "#fff"
+    }, {
+        "img": "./../img/hot10.jpg",
+        "right": "体验师专享",
+        "color_r": "#fbf3cc",
+        "title": "Osprey小鹰户外运动专业腰包",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#7bc564",
+        "num2": "1392",
+        "time": "查看试用名单",
+        "color_top": "#c8c99a"
+    }, {
+        "img": "./../img/hot11.jpg",
+        "right": "首发",
+        "color_r": "#ff4f3f",
+        "title": "Liquid Image 338 运动摄像眼镜",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#ff4f3f",
+        "num2": "1392",
+        "time": "剩余时间2天",
+        "color_top": "#fff"
+    }, {
+        "img": "./../img/hot12.jpg",
+        "right": "体验师专享",
+        "color_r": "#fbf3cc",
+        "title": "巴慕达 The Toaster 烤面包机",
+        "pricr": "2032",
+        "num1": "20台",
+        "color_box": "#7bc564",
+        "num2": "1392",
+        "time": "查看试用名单",
+        "color_top": "#c8c99a"
+    }],
+    "HomePage_report": [{
+            "img": "./../img/re1.jpg",
+            "title": "空气净化器里面学问多得惊呆你，你选对了吗？",
+            "name": "苏苏",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/re2.jpg",
+            "title": "怎么骑都不会累的智能自行车：云马 C1试骑体验",
+            "name": "好吗",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/re3.jpg",
+            "title": "声音不是最优秀，但它形音完美的结合，足够打动人心",
+            "name": "iAra",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/re4.jpg",
+            "title": "风光大片信手拈来！vivo X6Plus不只是快，还是一台拍照利器",
+            "name": "苏苏",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/re1.jpg",
+            "title": "空气净化器里面学问多得惊呆你，你选对了吗？",
+            "name": "苏苏",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/re2.jpg",
+            "title": "怎么骑都不会累的智能自行车：云马 C1试骑体验",
+            "name": "好吗",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/re3.jpg",
+            "title": "声音不是最优秀，但它形音完美的结合，足够打动人心",
+            "name": "iAra",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/re4.jpg",
+            "title": "风光大片信手拈来！vivo X6Plus不只是快，还是一台拍照利器",
+            "name": "苏苏",
+            "num1": "3",
+            "num2": "3"
+        }
+
+    ],
+    "HomePage_shopping": [{
+        "img": "./../img/g1.jpg",
+        "title": "花万元把蜗居秒变“豪宅”？这12件家具就能帮你办到",
+        "num1": "3",
+        "num2": "3"
+    }, {
+        "img": "./../img/g2.jpg",
+        "title": "到底有没有完美的iPhone手机配件，答案都在这里",
+        "num1": "3",
+        "num2": "3"
+    }, {
+        "img": "./../img/g3.jpg",
+        "title": "2016，这8支钢笔够你装逼一整年",
+        "num1": "3",
+        "num2": "3"
+    }, {
+        "img": "./../img/g4.jpg",
+        "title": "他用12年找一把完美 剃须刀，给你2万字终极购买指南",
+        "num1": "3",
+        "num2": "3"
+    }],
+    "HomePage_find": [{
+            "img": "./../img/k1.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k2.jpg",
+            "title": "B&O BeoSound 35 音响",
+            "subhead": "支持所有音乐流媒体服务",
+            "price": "￥ 512",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k3.jpg",
+            "title": "Mozbii 触控吸色笔",
+            "subhead": "能吸取65000种颜色",
+            "price": "￥ 暂无",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k4.jpg",
+            "title": "XPLORER 2 航拍飞行器",
+            "subhead": "搭载自动避障系统",
+            "price": "￥ 433",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k4.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k3.jpg",
+            "title": "B&O BeoSound 35 音响",
+            "subhead": "支持所有音乐流媒体服务",
+            "price": "￥ 暂无",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k2.jpg",
+            "title": "XPLORER 2 航拍飞行器",
+            "subhead": "搭载自动避障系统",
+            "price": "￥ 433",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k1.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k1.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k2.jpg",
+            "title": "B&O BeoSound 35 音响",
+            "subhead": "支持所有音乐流媒体服务",
+            "price": "￥ 512",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k3.jpg",
+            "title": "Mozbii 触控吸色笔",
+            "subhead": "能吸取65000种颜色",
+            "price": "￥ 433",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k4.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k4.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k3.jpg",
+            "title": "B&O BeoSound 35 音响",
+            "subhead": "支持所有音乐流媒体服务",
+            "price": "￥ 512",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k2.jpg",
+            "title": "Mozbii 触控吸色笔",
+            "subhead": "能吸取65000种颜色",
+            "price": "￥ 433",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k1.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }
+
+    ],
+    "HomePage_findMore": [{
+        "img": "./../img/kuwan01.jpg",
+        "title": "索尼 FDR-AXP55 摄像机",
+        "subhead": "可以测定食物成分及营养",
+        "price": "￥ 暂无",
+        "num1": "3",
+        "num2": "3"
+    }, {
+        "img": "./../img/kuwan02.jpg",
+        "title": "三星 HW-K950 家庭影院",
+        "subhead": "可以测定食物成分及营养",
+        "price": "￥ 499",
+        "num1": "3",
+        "num2": "3"
+    }, {
+        "img": "./../img/kuwan03.jpg",
+        "title": "FOSSIL Q45 Pilot 智能手表",
+        "subhead": "可以测定食物成分及营养",
+        "price": "￥ 36000",
+        "num1": "3",
+        "num2": "3"
+    }, {
+        "img": "./../img/kuwan04.jpg",
+        "title": "轻客 TF01 电单车:可折叠 智能变速",
+        "subhead": "可以测定食物成分及营养",
+        "price": "￥ 132059",
+        "num1": "3",
+        "num2": "3"
+    }]
+
+
+
+}

@@ -1,0 +1,155 @@
+@-webkit-keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.85;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    75% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.container {
+    width: 1000px;
+}
+
+.core img {
+    width: 615px;
+}
+
+.hove:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-animation-name: fadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-direction: alternate;
+}
+
+.core_p {
+    margin: 18px 0 18px 0;
+    font-size: 12px;
+}
+
+.core_left {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.core_h1 {
+    font-size: 22px;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+.core_top_div {
+    padding-bottom: 25px;
+    border-bottom: 1px #ccc solid;
+}
+
+.core_p2 {
+    margin: 20px 0 50px 0;
+}
+
+.core_hp {
+    font-weight: bolder;
+}
+
+.core_img {
+    margin-top: 25px;
+    margin-bottom: 28px;
+}
+
+.core_bott_p {
+    margin-top: 30px;
+}
+
+.ppp {
+    margin-bottom: 0px;
+}
+
+.core_img2 {
+    margin-bottom: 20px;
+}
+
+.core_sanwn {
+    margin-bottom: 30px;
+}
+
+.core_botton {
+    margin-top: 50px;
+}
+
+.core_botton_tit1 {
+    color: #ccc;
+    margin-top: 50px;
+}
+
+.core_botton_tit2 {
+    color: #ccc;
+    margin-bottom: 50px;
+}
+
+
+/* 右边 */
+
+.core_right {
+    width: 257px;
+    height: 103px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-left: 30px;
+}
+
+.core_right1 {
+    height: 103px;
+    border-right: 1px #f7f7f7 solid;
+}
+
+.core_right_l {
+    position: relative;
+    margin: 20px;
+}
+
+.core_right_222 {
+    margin: 20px 20px 20px 30px;
+}
+
+.core_right_l>img {
+    width: 26px;
+    height: 26px;
+}
+
+.core_right_lb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.core_right_2 {
+    margin-left: 15px;
+    color: #ccc;
+}
+
+.core_right_2_b {
+    margin-left: 30px;
+    color: #ccc;
+}
+
+.col_r {
+    color: red;
+}
+
+#share {
+    margin-top: 20px;
+    margin-left: 70px;
+    display: none
+}

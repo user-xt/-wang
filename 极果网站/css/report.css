@@ -1,0 +1,126 @@
+/* 闪烁 */
+
+@-webkit-keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.85;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    75% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.hove:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-animation-name: fadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-direction: alternate;
+}
+
+.core_report {
+    background-color: #f7f7f7;
+}
+
+.repore_div {
+    width: 640px;
+    height: 377px;
+    margin-top: 20px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+}
+
+.repore_div>img {
+    width: 640px;
+    height: auto;
+}
+
+.repore_div2 {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    background-color: rgba(247, 247, 245, 0.85);
+}
+
+.repore_div2_a>span {
+    padding: 0;
+}
+
+.repore_div2_p {
+    margin: 25px;
+    font-size: 17px;
+}
+
+.repore_div2_a_col {
+    color: red;
+}
+
+.repore_div2_a_col2 {
+    color: #8f8f91;
+}
+
+.repore_p {
+    width: 640px;
+    border: 1px #ccc solid;
+    border-radius: 7px;
+    color: #ccc;
+    padding: 19px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* 右侧导航 */
+
+.repore_rig {}
+
+.repore_rig_top {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.repore_rig_top1 {
+    width: 6px;
+    height: 25px;
+    background-color: red;
+    float: left;
+}
+
+.repore_rig_top2 {
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-left: 20px;
+    float: left;
+}
+
+.repore_rig_top_img {
+    margin: 20px 0;
+}
+
+.repore_rig_top_title {
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.repore_rig_top_p {
+    margin-bottom: 20px;
+}
+
+.repore_rig_bot {
+    margin-top: 60px;
+}

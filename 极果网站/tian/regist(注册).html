@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .navbar {
+            border-radius: 0px;
+        }
+
+        .container {
+            width: 1000px;
+        }
+
+        nav {
+            height: 70px;
+
+        }
+
+        .nav_home {
+            margin-bottom: 0px;
+        }
+
+        .navbar-default {
+            background-color: #ffffff;
+        }
+
+        .container-fluid #bs-example-navbar-collapse-1 {
+            margin-top: 10px;
+        }
+
+        .navbar-header img {
+            padding: 10px 10px 0 10px;
+        }
+
+        .navbar-default .navbar-nav>li>a {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .navbar-default .navbar-nav>li>a:hover {
+            color: #fe623c;
+        }
+
+        #register {
+            color: #fe623c;
+            border-color: #fe623c;
+            outline: none;
+        }
+
+        #register:hover {
+            background-color: #ffffff;
+        }
+
+        .nav_btn,
+        .nav-ul {
+            margin-top: 10px;
+        }
+
+        .nav_text_icon {
+            color: #777;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        .feet {
+            background-color: #505050;
+        }
+
+        .feet p {
+            color: #999da5;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        .feet h4 a {
+            color: #efdae2;
+        }
+
+        .center_feet {
+            padding: 28px 0;
+        }
+
+        .banner_box {
+            width: 100%;
+            height: 290px;
+            background: url('./css/css/img/original.jpg');
+            background-position: -250px 0px;
+
+        }
+
+        .bannerBox {
+            padding-left: 0;
+            padding-right: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .banner_text {
+            width: 300px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            right: 190px;
+        }
+
+        body {
+            background-color: #f7f7f7;
+        }
+
+        .center_box {
+            width: 90%;
+            height: 752px;
+            background-color: #ffffff;
+            border: 1px solid #e4e4e4;
+            margin: 24px auto;
+            border-radius: 7px;
+            position: relative;
+        }
+
+        .center_box .color_box {
+            display: block;
+            width: 6px;
+            height: 24px;
+            background-color: #fe623c;
+            position: absolute;
+            left: 0;
+            top: 22px;
+        }
+
+        .center_box h4 {
+            margin: 26px 0 0 24px;
+        }
+
+        .input_box {
+            margin-top: 72px;
+        }
+        .center_box input{
+            background-color: #f7f7f7;
+            border-radius:10px; 
+        }
+
+        .center_box input:focus{
+            border-color:#cccccc; 
+            box-shadow: none;
+        }
+        .center_box button{
+            outline:none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 头部       -->
+    <nav class="navbar navbar-default nav_home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-2">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <img src="./img/logonew.png" alt="" class="navbar-brand">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav nav-ul">
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">酷玩</a></li>
+                            <li><a href="#">导购</a></li>
+                            <li><a href="#">试用</a></li>
+                            <li><a href="#">报告</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 nav_btn">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <span class="glyphicon glyphicon-search nav_text_icon"></span>
+                        </div>
+                        <button type="submit" class="btn btn-default" id="register">注册</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <div class="center_box">
+            <span class="color_box"></span>
+            <h4>注册极果</h4>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="form-horizontal input_box">
+                        <div class=" form-group">
+                            <input type="text" id="name" class="form-control input-lg tel"  placeholder="请输入手机号" pattern="^1[3578]\d{9}$" >
+                        </div>
+                        <div class=" form-group">
+                            <img src="./img/imgCode.jpg" alt="" class="pull-right">
+                            <input type="text" id="name" style="width:70%" class="form-control input-lg pull-left" placeholder="请输入图片效验码">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <input type="text" id="name" class="code form-control input-lg pull-left"
+                                        placeholder="请输入4位数字验证码">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <button class="btn_text btn btn-lg btn-default pull-right" style="outline:none;">获取验证码</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" form-group">
+                            <input type="text" id="name" class="input-lg form-control user" placeholder="请输入用户名">
+                        </div>
+
+                        <div class=" form-group">
+                            <input type="password" id="name" class="input-lg form-control pasd" placeholder="请输入新密码" pattern="^\w{6,10}$">
+                        </div>
+
+                        <div class=" form-group">
+                            <input type="password" id="name" class="input-lg form-control pasds" placeholder="确定新密码">
+                        </div>
+
+                        <div class=" form-group">
+                            <button class="btn btn-lg btn-default btn-block" style="outline:none;">立即注册</button>
+                        </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- 底部     -->
+        <div class="feet">
+            <div class="container">
+                <div class="row center_feet">
+                    <div class="col-md-2 col-sm-12">
+                        <img src="./img/code.png" alt="" style="width:100%">
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <img src="./img/logoImg.jpg" alt="">
+                            </div>
+                            <div class="col-md-12 col-sm-12" style="margin-top:10px">
+                                <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>微信添加“JguoJguo”获取我们的服务。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h4><a href="#">免费试用</a></h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>适用流程</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>如何提高成功率</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h4><a href="#">友情链接</a></h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>智东西&nbsp;&nbsp;&nbsp;&nbsp;WEIBUSI</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>搜狐IT&nbsp;&nbsp;&nbsp;&nbsp;腾讯科技</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>搜狐数码&nbsp;&nbsp;&nbsp;&nbsp;凤凰科技</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>凤凰数码&nbsp;&nbsp;&nbsp;&nbsp;PConline</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>泡泡网&nbsp;&nbsp;&nbsp;&nbsp;3W咖啡</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>ZUK社区&nbsp;&nbsp;&nbsp;&nbsp;亿觅emie</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>极客公园&nbsp;&nbsp;&nbsp;&nbsp;易迅易启玩</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>果库</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-md-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h4><a href="#">购买攻略</a></h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>美亚海淘教程</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>日亚海淘教程</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>海淘转运攻略</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>kickstarter 众筹购买攻略</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>indiegogo 众筹购买攻略</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h4><a href="#">厂商合作</a></h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>关于极果</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>联系我们</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>商务合作：BD@jiguo.com</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>CEO邮箱：CEO@jiguo.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script>
+$(function() {
+
+// 正则表达式
+
+//手机号
+$('.tel').focus(function() {
+    $('.tel').val("");
+}).blur(function() {
+    var $num = /^1[3578]\d{9}$/;
+    var $val = $(".tel").val();
+
+    if ($val == "") {
+       $(this).val('不能为空')
+        return false;
+    } else if (!$num.test($val)) {
+        alert("手机号码格式不正确")
+        return false;
+    }
+})
+
+
+
+
+//验证码
+$(".code").focus(function() {
+    $(".code").val("");
+}).blur(function() {
+    var $num = /^\d{4}$/;
+    var $val = $(".code").val();
+    console.log($val)
+    if ($val == "") {
+        alert("验证码不能为空");
+        return false;
+    } else if (!$num.test($val)) {
+        alert("验证码格式不正确")
+        return false;
+    }
+})
+
+
+// 
+
+
+//匹配中文用户名
+$(".user").focus(function() {
+    $(".user").val("");
+}).blur(function() {
+    var $nom =  /^[a-zA-Z0-9_-]{4,16}$/;
+    var $vol = $(".user").val();
+    if ($vol == "") {
+        alert("用户名不能为空");
+        return false;
+    } else if (!$nom.test($vol)) {
+        alert("用户名格式不正确")
+        return false;
+    }
+})
+
+
+
+// //设置密码
+$(".pasd").focus(function() {
+        $(".pasd").val("");
+    }).blur(function() {
+        var $nlm = /^\w{6,10}$/;
+        var $vll = $(".pasd").val();
+        if ($vll == "") {
+            alert("密码不能为空");
+            return false;
+        } else if (!$nlm.test($val)) {
+            alert("密码格式不正确")
+            return false;
+        }
+    })
+//     //重新输入密码
+$(".pasds").focus(function() {
+    $(".pasds").val("");
+}).blur(function() {
+    var $val1 = $(".pasd").val();
+    var $val2 = $(".pasds").val();
+    if ($val2 == "") {
+        alert("密码不能为空");
+        return false;
+    } else if ($val1 != $val2) {
+        alert("密码不相同")
+        return false;
+    }
+})
+
+
+// //获取验证码
+var min = 10;
+var time;
+$('.btn_text').click(function() {
+    clearInterval(time);
+    time = setInterval(fn,1000);
+});
+
+function fn(){
+    min = --min;
+    if(min>0){
+        $('.btn_text').html('（'+min +'秒）重发');
+        $('.btn_text').attr('disabled',true)
+    }else{
+        min = 5;
+        $('.btn_text').html('发送验证码')
+        $('.btn_text').attr('disabled',false)
+        clearInterval(time);
+    }
+}
+
+})
+
+
+
+</script>
+</html>

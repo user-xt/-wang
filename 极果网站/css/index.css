@@ -1,0 +1,439 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#show_ul {
+    width: 3000px;
+    height: 277px;
+}
+
+#show_ul>li {
+    width: 210px;
+    height: 277px;
+    border: 1px #ccc solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: 10px 20px;
+    /* margin: 20px 20px 0 20px; */
+    overflow: hidden;
+    float: left;
+    list-style: none;
+}
+
+.show_ul>li>p {
+    margin: 10px 7px 2PX 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#showBox {
+    width: 1000px;
+    height: 305px;
+    overflow: hidden;
+    margin: 0 -10px;
+    position: relative;
+    left: 20px;
+}
+
+.showBox_top {
+    height: 20px;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 0 0 0 7px;
+}
+
+.showBox_img {
+    position: relative;
+}
+
+.showBox_img>img {
+    width: 210px;
+    height: 128px;
+}
+
+.showBox_top {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.showBox_c_box {
+    overflow: hidden;
+}
+
+.showBox_cen1 {
+    width: 50px;
+    height: 25px;
+    border-radius: 7px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+    margin-left: 50px;
+}
+
+.showBox_cen2 {
+    width: 50px;
+    height: 25px;
+    border-radius: 7px;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+}
+
+.showBox_bot {
+    height: 20px;
+}
+
+.core1 {
+    position: relative;
+}
+
+.show_ul_btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.show_ul_btn_left {
+    position: relative;
+    top: 110px;
+    left: -75px;
+}
+
+.show_ul_btn_right {
+    position: relative;
+    top: 110px;
+    left: 1020px;
+}
+
+
+/* 报告精选 */
+
+.core2 {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.core2_li {
+    width: 210px;
+    height: 245px;
+    border-radius: 7px;
+    margin: 10px 20px;
+    list-style: none;
+    border: 1px #ccc solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+}
+
+.core2_box {
+    width: 1000px;
+}
+
+.core2_ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.core2_li>a>img {
+    width: 210px;
+    height: 128px;
+}
+
+.core2_li>a>P {
+    font-size: 12px;
+    margin: 11px 14px 23px 13px;
+}
+
+.core2_span {
+    padding: 0 5px;
+}
+
+.core2_ul2 {
+    padding-left: 10px;
+}
+
+.core2_ul2>span {
+    margin-right: 10px;
+}
+
+
+/* ***导购精选**** */
+
+.core3 {
+    width: 100%;
+}
+
+.core3_ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.core3_box {
+    width: 1000px;
+}
+
+.core3_li {
+    width: 210px;
+    height: 245px;
+    border-radius: 7px;
+    margin: 10px 20px;
+    list-style: none;
+    border: 1px #ccc solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+}
+
+
+/* .core3_li>a{
+
+} */
+
+.core3_li>a>img {
+    width: 210px;
+    height: 128px;
+}
+
+.core3_li>P {
+    font-size: 12px;
+    margin: 11px 14px 23px 13px;
+}
+
+.core3_span {
+    padding: 0 5px;
+}
+
+
+/*   发现酷玩   */
+
+.core4 {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.core4_ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.core4_box {
+    width: 1000px;
+    overflow: hidden;
+}
+
+.core4_li {
+    width: 210px;
+    height: 245px;
+    border-radius: 7px;
+    margin: 10px 20px;
+    list-style: none;
+    border: 1px #ccc solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+}
+
+.core4_li>img {
+    width: 210px;
+    height: 128px;
+}
+
+.core4_p1 {
+    font-size: 12px;
+    margin: 11px 14px 0px 13px;
+    font-weight: bolder;
+}
+
+.core4_p2 {
+    font-size: 12px;
+    margin: 11px 14px 23px 13px;
+}
+
+.core4_span {
+    padding: 0 5px;
+}
+
+.core4_col {
+    color: red;
+}
+
+.core4_more {
+    margin: 40px 0;
+    color: red;
+}
+
+.core5 {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.core5_ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.core5_box {
+    width: 1000px;
+    overflow: hidden;
+}
+
+.core4_more>span {
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+    left: -5px;
+    font-weight: bolder;
+}
+
+
+/* 加载更多 */
+
+canvas {
+    position: absolute;
+    top: 2606px;
+    left: 617px;
+}
+
+.core5_gif {
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+
+/*   banner */
+
+.banner_text>h2 {
+    margin: 50px 0 25px 0;
+    color: #fff;
+}
+
+.banner_text span {
+    height: 35px;
+    padding: 10px;
+    margin: 0 0 10px 20px;
+    color: #fff;
+    background: #ccc;
+}
+
+.banner_text .banner11 {
+    margin-top: 30px;
+    padding: 0;
+    color: #fff;
+}
+
+.banner_b {
+    margin-top: 12px;
+    padding: 0;
+}
+
+.banner_b a {
+    color: #fff
+}
+
+.banner_b>.btn_btn {
+    width: 240px;
+    height: 46px;
+    background: red;
+    color: #fff;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 46px;
+    border: 1px red solid;
+}
+
+#banner_text {
+    -webkit-animation: f 2.5s;
+    animation: f 2.5s;
+}
+
+@-webkit-keyframes f {
+    0% {
+        -webkit-transform: translate3d(300px, -300px, 0);
+        transform: translate3d(300px, -300px, 0);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: translate3d(-100px, -100px, 0);
+        transform: translate3d(-100px, -100px, 0);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+.hove {
+    position: relative;
+}
+
+.hove>img {
+    width: 210px;
+    height: 128px;
+}
+
+.hove>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 128px;
+    /* -webkit-transition: all 0.5s;
+    -webkit-transition: all 0.5s infinite;
+    transition: all 0.5s infinite; */
+}
+
+
+/* .hove>div:hover {
+    background-color: rgba(255, 255, 255, 0.452);
+} */
+
+
+/* 闪烁 */
+
+@-webkit-keyframes fadeInOut {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.85;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    75% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.hove:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-animation-name: fadeInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-direction: alternate;
+}
+
+#goPageTop {
+    left: 1390px;
+    bottom: 100px;
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+}

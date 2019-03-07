@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" href="./../../css/index.css">
+
+    <style>
+        body {
+            overflow: -Scroll;
+            overflow-x: hidden;
+        }
+        
+        .navbar {
+            border-radius: 0px;
+        }
+        
+        .container {
+            width: 1000px;
+        }
+        
+        nav {
+            height: 70px;
+        }
+        
+        .nav_home {
+            margin-bottom: 0px;
+        }
+        
+        .navbar-default {
+            background-color: #ffffff;
+        }
+        
+        .container-fluid #bs-example-navbar-collapse-1 {
+            margin-top: 10px;
+        }
+        
+        .navbar-header img {
+            padding: 10px 10px 0 10px;
+        }
+        
+        .navbar-default .navbar-nav>li>a {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        
+        .navbar-default .navbar-nav>li>a:hover {
+            color: #fe623c;
+        }
+        
+        #register {
+            color: #fe623c;
+            border-color: #fe623c;
+            outline: none;
+        }
+        
+        #register:hover {
+            background-color: #ffffff;
+        }
+        
+        .nav_btn,
+        .nav-ul {
+            margin-top: 10px;
+        }
+        
+        .nav_text_icon {
+            color: #777;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+        
+        .feet {
+            background-color: #505050;
+        }
+        
+        .feet p {
+            color: #999da5;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+        
+        .feet h4 a {
+            color: #f2f2f2;
+        }
+        
+        .center_feet {
+            padding: 28px 0;
+        }
+        
+        .banner_box {
+            width: 100%;
+            height: 290px;
+            background: url('./../css/css/img/original.jpg');
+            background-position: -250px 0px;
+        }
+        
+        .bannerBox {
+            padding-left: 0;
+            padding-right: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        
+        .banner_text {
+            width: 300px;
+            height: 230px;
+            position: absolute;
+            top: 0;
+            right: 190px;
+        }
+        
+        .home_bj_nav {
+            width: 100%;
+            height: 100px;
+            background-color: #f0f0f0;
+        }
+        
+        .home_text_nav {
+            width: 62px;
+            height: 80px;
+            position: relative;
+            margin-top: 20px;
+        }
+        
+        .home_text_nav h4 {
+            margin-left: 20px;
+            margin-top: 14px;
+        }
+        
+        .home_text_nav span {
+            display: block;
+            height: 62px;
+            width: 6px;
+            background-color: #fa543f;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .useIntro {
+            margin-top: 25px;
+        }
+        
+        .useDetial {
+            font-size: 16px;
+        }
+        
+        .useDetial .title {
+            position: relative;
+            padding: 18px 0 16px 16px;
+            font-size: 20px;
+        }
+        
+        .useDetial .title:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 6px;
+            height: 30px;
+            left: 0;
+            top: 18px;
+        }
+        
+        .useDetial .top {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        .useDetial .little {
+            font-weight: bold;
+        }
+        
+        .useDetial .red {
+            font-weight: bold;
+        }
+        
+        .listR .gm .money {
+            font-size: 40px;
+            padding: 20px 0 15px;
+        }
+        
+        .listR .gm .buyBtn {
+            display: block;
+            height: 48px;
+            border-radius: 5px;
+            line-height: 48px;
+            font-size: 18px;
+            text-align: center;
+        }
+        
+        .listR .gm .resource {
+            margin: 10px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .useBtm {
+            margin-bottom: 25px;
+        }
+        
+        .listR .gm .money {
+            color: #fe5341;
+        }
+        
+        .listR .gm .buyBtn {
+            color: #fff;
+            background: #fe5341;
+        }
+        
+        .listR .gm .buyBtn:hover {
+            background: #f3250f;
+        }
+        
+        .listR .gm .resource {
+            color: #a3a3a3;
+        }
+        
+        .home_list_imgbox {
+            position: relative;
+            overflow: hidden;
+            padding: 0;
+        }
+        
+        .red {
+            color: #f3250f;
+        }
+        
+        .home_list_btn_1,
+        .home_list_btn_2 {
+            width: 48px;
+            height: 24px;
+            border: 1px solid #f3250f;
+            display: block;
+            text-align: center;
+            border-radius: 4px;
+            color: #f3250f;
+        }
+        
+        .img_icon {
+            width: 38px;
+            height: 20px;
+            text-align: center;
+            border-radius: 0 0 0px 10px;
+            background-color: #f3250f;
+            color: #ffffff;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        
+        .green {
+            border: 1px solid green;
+            color: green;
+        }
+        
+        @-webkit-keyframes fadeInOut {
+            0% {
+                opacity: 1;
+            }
+            25% {
+                opacity: 0.85;
+            }
+            50% {
+                opacity: 0.7;
+            }
+            75% {
+                opacity: 0.6;
+            }
+            100% {
+                opacity: 0.5;
+            }
+        }
+        
+        .hove:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            -webkit-animation-name: fadeInOut;
+            -webkit-animation-timing-function: ease-in-out;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-direction: alternate;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部       -->
+    <nav class="navbar navbar-default nav_home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-2">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <img src="./../img/logonew.png" alt="" class="navbar-brand">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav nav-ul">
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">酷玩</a></li>
+                            <li><a href="#">导购</a></li>
+                            <li><a href="#">试用</a></li>
+                            <li><a href="#">报告</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 nav_btn">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <span class="glyphicon glyphicon-search nav_text_icon"></span>
+                        </div>
+                        <button type="submit" class="btn btn-default" id="register">注册</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bannerBox">
+        <div class="banner_text text-right" id="banner_text">
+            <h2>幻响小贝HiFi2.1音箱</h2>
+            <div class="text-right"><span>126人申请</span><span>￥559</span><span>20台</span></div>
+            <div class=" text-right">
+                <div class="col-md-7 banner11 ">
+                    申请时间剩余：
+                </div>
+                <div class="col-md-5 banner11 text-left " id="banner11">
+                    13天5小时13分钟
+                </div>
+            </div>
+            <div class="banner_b col-md-12  text-right">
+                <button class="btn_btn" type="button"><a href="#">立即申请</a></button>
+            </div>
+        </div>
+        <div class="banner_box">
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid home_bj_nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="home_text_nav">
+                        <span></span>
+                        <h4 class="pull-left">试用流程</h4>
+                    </div>
+                </div>
+                <div class="col-md-2" style="margin-top:16px">
+                    <div class="col-md-12">
+                        <img src="./../css/css/img/use1.png" alt="" class="center-block">
+                    </div>
+                    <div class='col-md-12'>
+                        <p class="text-center" style="margin-top:12px">开放申请</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2" style="margin-top:16px">
+                    <div class="col-md-12">
+                        <img src="./../css/css/img/use2.png" alt="" class="center-block">
+                    </div>
+                    <div class='col-md-12'>
+                        <p class="text-center" style="margin-top:12px">名单公布</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2" style="margin-top:16px">
+                    <div class="col-md-12">
+                        <img src="./../css/css/img/use3.png" alt="" class="center-block">
+                    </div>
+                    <div class='col-md-12'>
+                        <p class="text-center" style="margin-top:12px">产品试用</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2" style="margin-top:16px">
+                    <div class="col-md-12">
+                        <img src="./../css/css/img/use4.png" alt="" class="center-block">
+                    </div>
+                    <div class='col-md-12'>
+                        <p class="text-center" style="margin-top:12px">提交反馈</p>
+                    </div>
+                </div>
+
+                <div class="col-md-2" style="margin-top:16px">
+                    <div class="col-md-12">
+                        <img src="./../css/css/img/use5.png" alt="" class="center-block">
+                    </div>
+                    <div class='col-md-12'>
+                        <p class="text-center" style="margin-top:12px">活动结束</p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="useIntro wrap fix">
+            <article class="left useDetial">
+                <h3 class="title">产品介绍</h3>
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="text">
+                            <p class="top">多重功能集成的便携控制中心：半果控制中心。</p>
+
+                            <p>半果控制中心是一台功能高度集成的便携控制设备，包含WiFi收发模块、蓝牙4.1模块、独立声卡系统、音乐控制拨盘、麦克风语音接收、3.5mm耳机接口、高速数据传输、QC2.0快速充电、Type-C接口等。仅需将其与电脑连接，即可解决科技生活中遇到的种种痛点。
+                            </p>
+                            <div>
+                                <img class="hove" src="./../img/use1.jpg" alt="">
+
+                            </div>
+
+                            <p class="little">结构设计</p>
+
+                            <p>极致一体化，机身表面没有一丝接缝和一颗螺丝。采用突破性的液态金属质感工艺，无任何键位开关，所有功能同时自然高效运行。</p>
+
+                            <p class="little">无线网络</p>
+
+                            <p>台式机或无自带网卡的电脑只需插入半果控制中心，切换至网卡模式即可接受WiFi信号。还可创建WiFi热点，让你的手机和平板立刻联网。</p>
+
+                            <p><img class="hove" src="../img/use.jpg" / style="width:100%"></p>
+
+                            <p class="little">蓝牙连接</p>
+
+                            <p>先进的超低功耗蓝牙4.1，设备配对连接更便捷。可将所有设备连接至一台控制中心，数据传输速率大幅提高。</p>
+
+                            <p class="little">独立声卡</p>
+
+                            <p>配备德州仪器HiFi芯片，内置Max Bass技术，带来更高解析力音质。并且采用独立耳机放大器，内置麦克风，任何软件都可轻松调用。</p>
+
+                            <p class="little">极速充电</p>
+
+                            <p>支持QC 2.0快充协议，使用一根Type-C线，4个USB可同时极速快充，并且每个接口都拥有芯片级的4重保护，告别插线板和充电器。</p>
+
+                        </div>
+                        <h3 class="title">活动介绍</h3>
+                        <div class="text">
+                            <p>点击申请按钮报名，报名成功后记得邀请好友一起来参与哦~邀请好友数前十名将根据申请理由和影响力抽取一位直接获得试用机会。请认真填写申请理由， 展现有创意的试用计划。进入手机端完善个人主页信息，可以大大提高申请通过几率哦~
+                            </p>>
+                            <p class="blue">试用报告要求100% 原创，抄袭会被封杀哦！</p>
+                            <p class="red">活动流程</p>
+                            <p>1.<strong>名单公布</strong>：试用名单将在活动页公布</p>
+                            <p>2.<strong>试用通知</strong>：名单公布后客服将以短信的方式通知申请成功者，2天不回复算弃权</p>
+                            <p>3.<strong>押金收取</strong>：客服将统一通知大家收取产品押金</p>
+                            <p>4.<strong>产品寄送</strong>：收到押金后第一时间将产品快递给大家</p>
+                            <p>5.<strong>网络晒单</strong>：收货后请在微博或朋友圈等社交网络晒单</p>
+                            <p>6.<strong>试用报告</strong>：收到货的10天内完成报告并上传</p>
+                            <p>7.<strong>产品回收</strong>：选取6篇优秀报告，赠送产品</p>
+                            <p>8.<strong>押金退回</strong>：活动结束返还，人为损坏须赔偿</p>
+
+                            <p class="red">活动时间</p>
+                            <p>1.<strong>申请报名</strong>：2016/02/02－2016/02/17（截至24点）</p>
+                            <p>2.<strong>公布名单</strong>：2016/02/20</p>
+                            <p>3.<strong>发货日期</strong>：2016/02/22（以实际为准）</p>
+                            <p>4.<strong>试用期限</strong>：收到产品后10天内</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <aside class="listR right">
+                            <div class="gm">
+                                <h2 class="title">购买渠道</h2>
+                                <p class="money">￥ 499</p>
+                                <a href="" class="buyBtn">点击购买</a>
+                                <p class="resource">来自官网</p>
+                            </div>
+                            <div class="ty">
+                                <h2 class="title">极果体验师</h2>
+                                <figure class="imgBox hove"><img src="../img/tiyanImg.jpg" style="width:100%" /></figure>
+                                <div class="info">
+                                    <h5>福利</h5>
+                                    <p class="text">第一时间体验新品，大众试用优先通过，还有定向邀请试用，新品玩到手软！</p>
+                                    <h5>要求</h5>
+                                    <p class="text">是某个领域的大神级玩家，在社交网络或圈子里有大影响力，善写作会拍摄。</p>
+                                    <h5>申请</h5>
+                                    <p class="text">1. 关注极果公众号：jguojguo<br>（或扫描下方二维码）<br>2. 在公众号内回复：体验师</p>
+                                </div>
+                            </div>
+                            <div class="guanzhu">
+                                <h2 class="title">关注我们</h2>
+                                <figure class="imgBox"><img src="../img/myCode.jpg" style="width:100%" /></figure>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!--热门试用-->
+        <h4>热门试用</h4>
+        <div class="row">
+            <div class="col-md-3">
+
+                <div class="thumbnail home_list_imgbox">
+                    <span class="img_icon">首发</span>
+                    <img class="hove" src="../img/hot1.jpg">
+                    <div class="caption">
+                        <h5>巴慕达 The Toaster 烤面包机</h5>
+                        <div style="width:60%; margin: 0 auto;">
+                            <span class="home_list_btn_1 pull-left">2032</span>
+                            <span class="home_list_btn_2 pull-right">20台</span>
+                            <p class="text-center"><span class="red">1392</span>申请</p>
+                            <p class="text-center red">剩余时间2天</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail home_list_imgbox">
+                    <span class="img_icon">首发</span>
+                    <img class="hove" src="../img/hot2.jpg">
+                    <div class="caption">
+                        <h5>Osprey小鹰户外运动专业腰包</h5>
+                        <div style="width:60%; margin: 0 auto;">
+                            <span class="home_list_btn_1 pull-left green">2032</span>
+                            <span class="home_list_btn_2 pull-right green">20台</span>
+                            <p class="text-center"><span>1392</span>申请</p>
+                            <p class="text-center red">剩余时间2天</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail home_list_imgbox">
+                    <span class="img_icon">首发</span>
+                    <img class="hove" src="../img/hot3.jpg">
+                    <div class="caption">
+                        <h5>巴慕达 The Toaster 烤面包机</h5>
+                        <div style="width:60%; margin: 0 auto;">
+                            <span class="home_list_btn_1 pull-left">2032</span>
+                            <span class="home_list_btn_2 pull-right">20台</span>
+                            <p class="text-center"><span class="red">1392</span>申请</p>
+                            <p class="text-center" style="color:green">查看试用名单</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail home_list_imgbox">
+                    <span class="img_icon">首发</span>
+                    <img src="../img/hot4.jpg">
+                    <div class="caption">
+                        <h5>LIquid Image 338 运动摄像眼镜</h5>
+                        <div style="width:60%; margin: 0 auto;">
+                            <span class="home_list_btn_1 pull-left red">2032</span>
+                            <span class="home_list_btn_2 pull-right red">20台</span>
+                            <p class="text-center"><span class="red">1392</span>申请</p>
+                            <p class="text-center red">剩余时间2天</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 底部 -->
+    <!-- 底部     -->
+    <div class="feet">
+        <div class="container">
+            <div class="row center_feet">
+                <div class="col-md-2 col-sm-12">
+                    <img src="./../img/code.png" alt="" style="width:100%">
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <img src="./../img/logoImg.jpg" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12" style="margin-top:10px">
+                            <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>微信添加“JguoJguo”获取我们的服务。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">免费试用</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>适用流程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>如何提高成功率</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">友情链接</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>智东西&nbsp;&nbsp;&nbsp;&nbsp;WEIBUSI</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>搜狐IT&nbsp;&nbsp;&nbsp;&nbsp;腾讯科技</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>搜狐数码&nbsp;&nbsp;&nbsp;&nbsp;凤凰科技</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>凤凰数码&nbsp;&nbsp;&nbsp;&nbsp;PConline</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>泡泡网&nbsp;&nbsp;&nbsp;&nbsp;3W咖啡</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>ZUK社区&nbsp;&nbsp;&nbsp;&nbsp;亿觅emie</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>极客公园&nbsp;&nbsp;&nbsp;&nbsp;易迅易启玩</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>果库</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">购买攻略</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>美亚海淘教程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>日亚海淘教程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>海淘转运攻略</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>kickstarter 众筹购买攻略</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>indiegogo 众筹购买攻略</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">厂商合作</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>关于极果</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>联系我们</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>商务合作：BD@jiguo.com</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>CEO邮箱：CEO@jiguo.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

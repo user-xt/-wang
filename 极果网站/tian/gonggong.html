@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .navbar{
+            border-radius:0px; 
+        }
+        .container {
+            width: 1000px;
+        }
+
+        nav {
+            height: 70px;
+
+        }
+
+        .nav_home {
+            margin-bottom: 0px;
+        }
+
+        .navbar-default {
+            background-color: #ffffff;
+        }
+
+        .container-fluid #bs-example-navbar-collapse-1 {
+            margin-top: 10px;
+        }
+
+        .navbar-header img {
+            padding: 10px 10px 0 10px;
+        }
+
+        .navbar-default .navbar-nav>li>a {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .navbar-default .navbar-nav>li>a:hover {
+            color: #fe623c;
+        }
+
+        #register {
+            color: #fe623c;
+            border-color: #fe623c;
+            outline:none;
+        }
+
+        #register:hover {
+            background-color: #ffffff;
+        }
+
+        .nav_btn,
+        .nav-ul {
+            margin-top: 10px;
+        }
+
+        .nav_text_icon {
+            color: #777;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        .feet {
+            background-color: #505050;
+        }
+
+        .feet p {
+            color: #999da5;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+        .feet h4 a{
+            color:#efdae2;
+        }
+
+        .center_feet {
+            padding: 28px 0;
+        }
+        .banner_box{
+            width: 100%;
+            height: 290px;
+            background:url('./css/css/img/original.jpg');
+            background-position:-250px 0px; 
+             
+        }
+        .bannerBox{
+             padding-left:0;
+            padding-right:0;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .banner_text{
+            width: 300px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            top:0;
+            right: 190px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 头部       -->
+    <nav class="navbar navbar-default nav_home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-2">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <img src="./img/logonew.png" alt="" class="navbar-brand">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav nav-ul">
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">酷玩</a></li>
+                            <li><a href="#">导购</a></li>
+                            <li><a href="#">试用</a></li>
+                            <li><a href="#">报告</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 nav_btn">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <span class="glyphicon glyphicon-search nav_text_icon"></span>
+                        </div>
+                        <button type="submit" class="btn btn-default" id="register">注册</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+   
+   <div class="container-fluid bannerBox">
+       <div class="banner_text">
+
+
+       </div>
+       <div class="banner_box">
+
+       </div>
+       
+   </div>
+    
+
+
+
+
+
+
+
+
+    <!-- 底部     -->
+    <div class="feet">
+        <div class="container">
+            <div class="row center_feet">
+                <div class="col-md-2 col-sm-12">
+                    <img src="./img/code.png" alt="" style="width:100%">
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <img src="./img/logoImg.jpg" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12" style="margin-top:10px">
+                            <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>微信添加“JguoJguo”获取我们的服务。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">免费试用</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>适用流程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>如何提高成功率</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">友情链接</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>智东西&nbsp;&nbsp;&nbsp;&nbsp;WEIBUSI</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>搜狐IT&nbsp;&nbsp;&nbsp;&nbsp;腾讯科技</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>搜狐数码&nbsp;&nbsp;&nbsp;&nbsp;凤凰科技</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>凤凰数码&nbsp;&nbsp;&nbsp;&nbsp;PConline</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>泡泡网&nbsp;&nbsp;&nbsp;&nbsp;3W咖啡</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>ZUK社区&nbsp;&nbsp;&nbsp;&nbsp;亿觅emie</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>极客公园&nbsp;&nbsp;&nbsp;&nbsp;易迅易启玩</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>果库</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">购买攻略</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>美亚海淘教程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>日亚海淘教程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>海淘转运攻略</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>kickstarter 众筹购买攻略</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>indiegogo 众筹购买攻略</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-2 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <h4><a href="#">厂商合作</a></h4>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>关于极果</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>联系我们</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>商务合作：BD@jiguo.com</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <p>CEO邮箱：CEO@jiguo.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</html>

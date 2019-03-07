@@ -1,0 +1,89 @@
+{
+    "mostHot": [{
+            "img": "./../img/k2.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k1.jpg",
+            "title": "B&O BeoSound 35 音响",
+            "subhead": "支持所有音乐流媒体服务",
+            "price": "￥ 512",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k3.jpg",
+            "title": "Mozbii 触控吸色笔",
+            "subhead": "能吸取65000种颜色",
+            "price": "￥ 暂无",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k1.jpg",
+            "title": "XPLORER 2 航拍飞行器",
+            "subhead": "搭载自动避障系统",
+            "price": "￥ 433",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k4.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k3.jpg",
+            "title": "B&O BeoSound 35 音响",
+            "subhead": "支持所有音乐流媒体服务",
+            "price": "￥ 暂无",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k1.jpg",
+            "title": "XPLORER 2 航拍飞行器",
+            "subhead": "搭载自动避障系统",
+            "price": "￥ 433",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k4.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k2.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k3.jpg",
+            "title": "B&O BeoSound 35 音响",
+            "subhead": "支持所有音乐流媒体服务",
+            "price": "￥ 512",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k3.jpg",
+            "title": "Mozbii 触控吸色笔",
+            "subhead": "能吸取65000种颜色",
+            "price": "￥ 433",
+            "num1": "3",
+            "num2": "3"
+        }, {
+            "img": "./../img/k1.jpg",
+            "title": "SCiO 微型光谱仪",
+            "subhead": "可以测定食物成分及营养",
+            "price": "￥ 1212",
+            "num1": "3",
+            "num2": "3"
+        }
+
+    ]
+}

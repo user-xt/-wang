@@ -1,0 +1,176 @@
+{
+    "calss_life": [{
+        "img": "./../img/cat_1.png",
+        "text": "空气净化器（21）"
+    }, {
+        "img": "./../img/cat_2.png",
+        "text": "吸尘器（21）"
+    }, {
+        "img": "./../img/cat_3.png",
+        "text": "扫地机器人（21）"
+    }, {
+        "img": "./../img/cat_4.png",
+        "text": "电风扇（21）"
+    }, {
+        "img": "./../img/cat_5.png",
+        "text": "净水壶（21）"
+    }, {
+        "img": "./../img/cat_6.png",
+        "text": "电饭煲（21）"
+    }, {
+        "img": "./../img/cat_7.png",
+        "text": "咖啡机（21）"
+    }, {
+        "img": "./../img/cat_8.png",
+        "text": "原汁机（21）"
+    }],
+
+    "calss_life_text": [
+        { "text": "电视（21）" },
+        { "text": "空调（21）" },
+        { "text": " 洗衣机（21）" },
+        { "text": " 加湿器（21）" },
+        { "text": "净水壶（21）" },
+        { "text": " 热水器（21）" },
+        { "text": " 咖啡机（21）" },
+        { "text": " 原汁机（21）" },
+        { "text": " 消毒 / 洗碗机（21）" },
+        { "text": " 豆浆机（21）" },
+        { "text": " 扫地机器人（21）" },
+        { "text": "电风扇（21）" },
+        { "text": " 除湿机（21）" },
+        { "text": " 干燥机（21）" },
+        { "text": "取暖器（21）" },
+        { "text": " 原汁机（21）" }
+    ],
+    "class_nurse": [{
+            "img": "./../img/cat_9.png",
+            "text": "电动牙刷（21）"
+        },
+        {
+            "img": "./../img/cat_10.png",
+            "text": "剃须刀（21）"
+        }, {
+            "img": "./../img/cat_11.png",
+            "text": "按摩器（21）"
+        }
+
+    ],
+    "class_nurse_text": [
+        { "text": " 冲牙器（21" },
+        { "text": "洁面仪（21" },
+        { "text": "蒸面器（21）" },
+        { "text": " 加湿器（21）" }
+    ],
+
+    "class_healthy": [{
+        "img": "./../img/cat_1.png",
+        "text": "电动牙刷（21）"
+    }, {
+        "img": "./../img/cat_2.png",
+        "text": "剃须刀（21）"
+    }, {
+        "img": "./../img/cat_3.png",
+        "text": "按摩器（21）"
+    }],
+    "class_healthy_text": [
+        { "text": "冲牙器（21）" },
+        { "text": " 洁面仪（21）" },
+        { "text": "蒸面器（21" },
+        { "text": " 加湿器（21）" }
+    ],
+
+    "class_brainpower": [{
+            "img": "./../img/cat_9.png",
+            "text": "电动牙刷（21）"
+        }, {
+            "img": "./../img/cat_4.png",
+            "text": "电风扇（21）"
+        }, {
+            "img": "./../img/cat_5.png",
+            "text": "净水壶（21）"
+        }, {
+            "img": "./../img/cat_6.png",
+            "text": "电饭煲（21）"
+        }, {
+            "img": "./../img/cat_7.png",
+            "text": "咖啡机（21）"
+        }, {
+            "img": "./../img/cat_8.png",
+            "text": "原汁机（21）"
+        }
+
+    ],
+    "class_brainpower_text": [
+        { "text": "冲牙器（21）" },
+        { "text": " 洁面仪（21）" },
+        { "text": "蒸面器（21" },
+        { "text": " 加湿器（21）" }
+    ],
+    "class_go": [{
+            "img": "./../img/cat_11.png",
+            "text": "电动牙刷（21）"
+        }, {
+            "img": "./../img/cat_2.png",
+            "text": "剃须刀（21）"
+        },
+        {
+            "img": "./../img/cat_9.png",
+            "text": "按摩器（21"
+        }
+    ],
+    "class_go_text": [
+        { "text": "冲牙器（21）" },
+        { "text": " 洁面仪（21）" },
+        { "text": "蒸面器（21" },
+        { "text": " 加湿器（21）" }
+
+    ],
+    "class_exercise": [{
+            "img": "./../img/cat_10.png",
+            "text": "电动牙刷（21）"
+        }, {
+            "img": "./../img/cat_8.png",
+            "text": "剃须刀（21）"
+        },
+        {
+            "img": "./../img/cat_5.png",
+            "text": "按摩器（21"
+        }
+    ],
+    "class_exercise_text": [
+        { "text": "冲牙器（21）" },
+        { "text": " 洁面仪（21）" },
+        { "text": "蒸面器（21" },
+        { "text": " 加湿器（21）" }
+    ],
+    "class_shoot": [{
+            "img": "./../img/cat_3.png",
+            "text": "电动牙刷（21）"
+        }, {
+            "img": "./../img/cat_1.png",
+            "text": "剃须刀（21）"
+        },
+        {
+            "img": "./../img/cat_9.png",
+            "text": "按摩器（21"
+        }
+    ],
+    "class_shoot_text": [
+        { "text": "冲牙器（21）" },
+        { "text": " 洁面仪（21）" },
+        { "text": "蒸面器（21" },
+        { "text": " 加湿器（21）" }
+    ],
+    "class_shoot": [{
+        "img": "./../img/cat_11.png",
+        "text": "电动牙刷（21）"
+    }],
+    "class_shoot_text": [
+        { "text": "冲牙器（21）" },
+        { "text": " 洁面仪（21）" },
+        { "text": "蒸面器（21" },
+        { "text": " 加湿器（21）" }
+    ]
+
+}

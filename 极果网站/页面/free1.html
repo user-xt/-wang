@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>免费试用</title>
+    <link rel="stylesheet" href="./../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="./../js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="./../css/css/index.css">
+    <link rel="stylesheet" href="./../css/free1.css">
+    <!-- <link rel="stylesheet" href="./../css/index.css"> -->
+    <style>
+        .navbar {
+            border-radius: 0px;
+        }
+        
+        .container {
+            width: 1000px;
+        }
+        
+        nav {
+            height: 70px;
+        }
+        
+        .nav_home {
+            margin-bottom: 0px;
+        }
+        
+        .navbar-default {
+            background-color: #ffffff;
+        }
+        
+        .container-fluid #bs-example-navbar-collapse-1 {
+            margin-top: 10px;
+        }
+        
+        .navbar-header img {
+            padding: 10px 10px 0 10px;
+        }
+        
+        .navbar-default .navbar-nav>li>a {
+            margin-left: 20px;
+            font-size: 18px;
+        }
+        
+        .navbar-default .navbar-nav>li>a:hover {
+            color: #fe623c;
+        }
+        
+        #register {
+            color: #fe623c;
+            border-color: #fe623c;
+            outline: none;
+        }
+        
+        #register:hover {
+            background-color: #ffffff;
+        }
+        
+        .nav_btn,
+        .nav-ul {
+            margin-top: 10px;
+        }
+        
+        .nav_text_icon {
+            color: #777;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+        
+        .feet {
+            background-color: #505050;
+        }
+        
+        .feet p {
+            color: #999da5;
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+        
+        .feet h4 a {
+            color: #f2f2f2;
+        }
+        
+        .center_feet {
+            padding: 28px 0;
+        }
+        
+        .banner_box {
+            width: 100%;
+            height: 290px;
+            background: url('./../css/img/original.jpg');
+            background-position: -250px 0px;
+        }
+        
+        .bannerBox {
+            padding-left: 0;
+            padding-right: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        
+        .banner_text {
+            width: 300px;
+            height: 230px;
+            position: absolute;
+            top: 0;
+            right: 190px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 头部 -->
+    <nav class="navbar navbar-default nav_home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-2">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <img src="./../img/logonew.png" alt="" class="navbar-brand">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav nav-ul">
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">酷玩</a></li>
+                            <li><a href="#">导购</a></li>
+                            <li><a href="#">试用</a></li>
+                            <li><a href="#">报告</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-2 nav_btn">
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <span class="glyphicon glyphicon-search nav_text_icon"></span>
+                        </div>
+                        <button type="submit" class="btn btn-default" id="register">注册</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--title  -->
+    <div class="container">
+        <h1 class=" text-center core1_h1">免费试用</h1>
+        <div class="col-md-2 col-md-offset-4 text-center free_core1_l">
+            <a href="./../页面/free1.html">大众试用</a>
+        </div>
+        <div class="col-md-2 text-center free_core1_r">
+            <a href="./../页面/free2.html">体验师专享</a>
+        </div>
+
+    </div>
+
+    <!-- 标签页 -->
+    <div id="nav">
+        <ul class="nav nav-tabs free_nav_ul text-center">
+            <li data-toggle="tab" role="presentation" class="active"><a href="#n1" data-toggle="tab">全部</a></li>
+            <li data-toggle="tab" role="presentation"><a href="#n2" data-toggle="tab">申请中</a></li>
+            <li data-toggle="tab" role="presentation"><a href="#n3" data-toggle="tab">试用中</a></li>
+            <li data-toggle="tab" role="presentation"><a href="#n4" data-toggle="tab">已结束</a></li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div class="tab-pane fade in active" id="n1">
+            <div class="core1">
+                <div class="container">
+                    <div class="showBox">
+                        <ul class="show_ul">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane " id="n2">
+            <div class="core1">
+                <div class="container">
+                    <div class="showBox">
+                        <ul class="show_ul free2">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane " id="n3">
+            <div class="core1">
+                <div class="container">
+                    <div class="showBox">
+                        <ul class="show_ul free3">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane " id="n4">
+            <div class="core1">
+                <div class="container">
+                    <div class="showBox">
+                        <ul class="show_ul free4">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- 底部     -->
+    <div class="feet">
+        <div class="container">
+            <div class="row center_feet">
+                <div class="col-md-2 col-sm-12">
+                    <img src="./../img/code.png" alt="" style="width:100%">
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <img src="./../img/logoImg.jpg" alt="">
+                        </div>
+                        <div class="col-md-12 col-sm-12" style="margin-top:10px">
+                            <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>微信添加“JguoJguo”获取我们的服务。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">免费试用</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>适用流程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>如何提高成功率</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">友情链接</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>智东西&nbsp;&nbsp;&nbsp;&nbsp;WEIBUSI</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>搜狐IT&nbsp;&nbsp;&nbsp;&nbsp;腾讯科技</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>搜狐数码&nbsp;&nbsp;&nbsp;&nbsp;凤凰科技</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>凤凰数码&nbsp;&nbsp;&nbsp;&nbsp;PConline</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>泡泡网&nbsp;&nbsp;&nbsp;&nbsp;3W咖啡</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>ZUK社区&nbsp;&nbsp;&nbsp;&nbsp;亿觅emie</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>极客公园&nbsp;&nbsp;&nbsp;&nbsp;易迅易启玩</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>果库</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">购买攻略</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>美亚海淘教程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>日亚海淘教程</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>海淘转运攻略</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>kickstarter 众筹购买攻略</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>indiegogo 众筹购买攻略</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-2 col-sm-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <h4><a href="#">厂商合作</a></h4>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>关于极果</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>联系我们</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>商务合作：BD@jiguo.com</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <p>CEO邮箱：CEO@jiguo.com</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+    <script id="core_show" type="text/x-dot-template">
+        {{~it.HomePageHot:value:index}}
+        <li>
+            <div class="showBox_img">
+
+                <img class="hove" src="{{=value.img}}">
+
+                <div class="showBox_top" style="color:{{=value.color_top}} ;background:{{=value.color_r}}">{{=value.right}}</div>
+            </div>
+            <p>{{=value.title}}</p>
+            <div class="showBox_c_box">
+                <div class="showBox_cen1" style="border: 1px {{=value.color_box}} solid;color: {{=value.color_box}}">{{=value.pricr}}</div>
+                <div class="showBox_cen2" style="border: 1px {{=value.color_box}} solid;color: {{=value.color_box}}">{{=value.num1}}</div>
+            </div>
+            <p><span style="color: red">{{=value.num2}}</span>申请</p>
+            <p class="showBox_bot" style="color:{{=value.color_box}};font-size:12px">{{=value.time}}</p>
+        </li>
+        {{~}}
+    </script>
+    <script id="core_show2" type="text/x-dot-template">
+        {{~it.HomePageHot2:value:index}}
+        <li>
+            <div class="showBox_img hove">
+
+                <img src="{{=value.img}}">
+
+                <div class="showBox_top" style="color:{{=value.color_top}} ;background:{{=value.color_r}}">{{=value.right}}</div>
+            </div>
+            <p>{{=value.title}}</p>
+            <div class="showBox_c_box">
+                <div class="showBox_cen1" style="border: 1px {{=value.color_box}} solid;color: {{=value.color_box}}">{{=value.pricr}}</div>
+                <div class="showBox_cen2" style="border: 1px {{=value.color_box}} solid;color: {{=value.color_box}}">{{=value.num1}}</div>
+            </div>
+            <p><span style="color: red">{{=value.num2}}</span>申请</p>
+            <p class="showBox_bot" style="color:{{=value.color_box}};font-size:12px">{{=value.time}}</p>
+        </li>
+        {{~}}
+    </script>
+    <script src="./../js/doT.min.js"></script>
+    <script>
+        $.ajax({
+            url: "./../json/HomePage1&2.json",
+            dataType: "json",
+            type: "get",
+            success: function(data) {
+                // console.log(data);
+                //调用模板
+                var core_show = doT.template($("#core_show").text());
+                $(".show_ul").html(core_show(data));
+
+                var core_show2 = doT.template($("#core_show2").text());
+                $(".free2").html(core_show2(data));
+
+                var core_show3 = doT.template($("#core_show").text());
+                $(".free3").html(core_show3(data));
+
+                var core_show4 = doT.template($("#core_show2").text());
+                $(".free4").html(core_show4(data));
+
+
+            }
+        })
+    </script>
+</body>
+
+</html>
